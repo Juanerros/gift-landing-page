@@ -25,8 +25,6 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: npm
-          cache-dependency-path: project/package-lock.json
       - uses: actions/cache@v4
         with:
           path: project/.next/cache
