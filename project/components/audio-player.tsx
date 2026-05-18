@@ -68,7 +68,7 @@ export function AudioPlayer() {
     <div className="flex flex-col items-center gap-6 w-full max-w-xs">
       <audio
         ref={audioRef}
-        src="/diegito.mp3"
+        src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/diegito.mp3`}
         crossOrigin="anonymous"
       />
 

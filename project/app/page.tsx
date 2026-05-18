@@ -4,6 +4,8 @@ import { AudioPlayer } from '@/components/audio-player'
 import { Heart } from 'lucide-react'
 import Image from 'next/image'
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || ''
+
 export default function GiftPage() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-background via-[#faf8f6] to-background flex flex-col items-center justify-center p-4 md:p-8">
@@ -35,7 +37,7 @@ export default function GiftPage() {
             {/* Main photo container */}
             <div className="relative bg-white rounded-2xl overflow-hidden shadow-xl group-hover:shadow-2xl transition-all duration-300 aspect-square md:aspect-auto md:h-96">
               <Image
-                src="/placeholder.svg?height=400&width=400"
+                src={`${basePath}/placeholder.svg?height=400&width=400`}
                 alt="Foto especial"
                 fill
                 className="object-cover"
