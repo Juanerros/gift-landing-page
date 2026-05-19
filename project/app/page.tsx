@@ -21,7 +21,7 @@ export default function GiftPage() {
           <div className="flex items-center justify-center gap-2 mb-4">
             <Heart size={20} className="text-primary animate-pulse" />
             <h1 className="text-3xl md:text-4xl font-light text-foreground">
-              <span className="font-semibold">Un regalo</span> para vos
+              <span className="font-semibold">RECORDAR</span> VOLVER A PASAR POR EL CORAZÓN
             </h1>
             <Heart size={20} className="text-primary animate-pulse" />
           </div>
