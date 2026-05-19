@@ -1,0 +1,5 @@
+# Desde /project
+$env:NEXT_PUBLIC_BASE_PATH='/gift-landing-page'; npx next build
+
+Copy-Item -Recurse -Force "out\*" -Destination ".."
+

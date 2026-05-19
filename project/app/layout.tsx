@@ -9,8 +9,8 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || ''
 
 export const metadata: Metadata = {
-  title: 'Un regalo especial para vos',
-  description: 'Una página creada con amor',
+  title: 'RECORDAR: VOLVER A PASAR POR EL CORAZÓN',
+  description: 'Una página creada con cariño',
   generator: 'v0.app',
   icons: {
     icon: [
