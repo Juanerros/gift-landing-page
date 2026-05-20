@@ -21,7 +21,7 @@ export default function GiftPage() {
           <div className="flex items-center justify-center gap-2 mb-4">
             <Heart size={20} className="text-primary animate-pulse" />
             <h1 className="text-3xl md:text-4xl font-light text-foreground">
-              <span className="font-semibold">RECORDAR</span> VOLVER A PASAR POR EL CORAZÓN
+              <span className="font-semibold">RECORDAR:</span> VOLVER A PASAR POR EL CORAZÓN
             </h1>
             <Heart size={20} className="text-primary animate-pulse" />
           </div>
@@ -37,7 +37,7 @@ export default function GiftPage() {
             {/* Main photo container */}
             <div className="relative bg-white rounded-2xl overflow-hidden shadow-xl group-hover:shadow-2xl transition-all duration-300 aspect-square md:aspect-auto md:h-96">
               <Image
-                src={`${basePath}/placeholder.svg?height=400&width=400`}
+                src={`${basePath}/popi.jpeg?height=400&width=400`}
                 alt="Foto especial"
                 fill
                 className="object-cover"
