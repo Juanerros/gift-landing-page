@@ -64,7 +64,7 @@ export default function GiftPage() {
         {/* Message */}
         <div className="text-center space-y-4 px-4">
           <p className="text-sm md:text-base text-foreground/70 leading-relaxed">
-            Este es un mensaje especial grabado solo para vos diegito...
+            Un mensaje especial para una persona especial
           </p>
           
           {/* Decorative elements */}
